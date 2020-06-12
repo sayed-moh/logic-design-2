@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Apr 21 12:44:31 2020
+# Process ID: 21160
+# Log file: E:/edu/sem6/logic2/ANN Assignment Final Submission/ANN_assignment_final/ANN_assignment/ANN_assignment.runs/synth_1/FC_Layer_ANN.vds
+# Journal file: E:/edu/sem6/logic2/ANN Assignment Final Submission/ANN_assignment_final/ANN_assignment/ANN_assignment.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source FC_Layer_ANN.tcl -notrace

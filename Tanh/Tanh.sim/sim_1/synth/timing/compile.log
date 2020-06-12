@@ -1,0 +1,152 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/Tanh/Tanh.sim/sim_1/synth/timing/Tanh_Matrix_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Tanh
+INFO: [VRFC 10-311] analyzing module Tanh_0
+INFO: [VRFC 10-311] analyzing module Tanh_1
+INFO: [VRFC 10-311] analyzing module Tanh_10
+INFO: [VRFC 10-311] analyzing module Tanh_11
+INFO: [VRFC 10-311] analyzing module Tanh_12
+INFO: [VRFC 10-311] analyzing module Tanh_13
+INFO: [VRFC 10-311] analyzing module Tanh_14
+INFO: [VRFC 10-311] analyzing module Tanh_15
+INFO: [VRFC 10-311] analyzing module Tanh_16
+INFO: [VRFC 10-311] analyzing module Tanh_17
+INFO: [VRFC 10-311] analyzing module Tanh_18
+INFO: [VRFC 10-311] analyzing module Tanh_19
+INFO: [VRFC 10-311] analyzing module Tanh_2
+INFO: [VRFC 10-311] analyzing module Tanh_20
+INFO: [VRFC 10-311] analyzing module Tanh_21
+INFO: [VRFC 10-311] analyzing module Tanh_22
+INFO: [VRFC 10-311] analyzing module Tanh_23
+INFO: [VRFC 10-311] analyzing module Tanh_24
+INFO: [VRFC 10-311] analyzing module Tanh_25
+INFO: [VRFC 10-311] analyzing module Tanh_26
+INFO: [VRFC 10-311] analyzing module Tanh_27
+INFO: [VRFC 10-311] analyzing module Tanh_28
+INFO: [VRFC 10-311] analyzing module Tanh_29
+INFO: [VRFC 10-311] analyzing module Tanh_3
+INFO: [VRFC 10-311] analyzing module Tanh_30
+INFO: [VRFC 10-311] analyzing module Tanh_31
+INFO: [VRFC 10-311] analyzing module Tanh_32
+INFO: [VRFC 10-311] analyzing module Tanh_33
+INFO: [VRFC 10-311] analyzing module Tanh_34
+INFO: [VRFC 10-311] analyzing module Tanh_35
+INFO: [VRFC 10-311] analyzing module Tanh_36
+INFO: [VRFC 10-311] analyzing module Tanh_37
+INFO: [VRFC 10-311] analyzing module Tanh_38
+INFO: [VRFC 10-311] analyzing module Tanh_39
+INFO: [VRFC 10-311] analyzing module Tanh_4
+INFO: [VRFC 10-311] analyzing module Tanh_40
+INFO: [VRFC 10-311] analyzing module Tanh_41
+INFO: [VRFC 10-311] analyzing module Tanh_42
+INFO: [VRFC 10-311] analyzing module Tanh_43
+INFO: [VRFC 10-311] analyzing module Tanh_44
+INFO: [VRFC 10-311] analyzing module Tanh_45
+INFO: [VRFC 10-311] analyzing module Tanh_46
+INFO: [VRFC 10-311] analyzing module Tanh_47
+INFO: [VRFC 10-311] analyzing module Tanh_48
+INFO: [VRFC 10-311] analyzing module Tanh_49
+INFO: [VRFC 10-311] analyzing module Tanh_5
+INFO: [VRFC 10-311] analyzing module Tanh_50
+INFO: [VRFC 10-311] analyzing module Tanh_51
+INFO: [VRFC 10-311] analyzing module Tanh_52
+INFO: [VRFC 10-311] analyzing module Tanh_53
+INFO: [VRFC 10-311] analyzing module Tanh_54
+INFO: [VRFC 10-311] analyzing module Tanh_55
+INFO: [VRFC 10-311] analyzing module Tanh_56
+INFO: [VRFC 10-311] analyzing module Tanh_57
+INFO: [VRFC 10-311] analyzing module Tanh_58
+INFO: [VRFC 10-311] analyzing module Tanh_59
+INFO: [VRFC 10-311] analyzing module Tanh_6
+INFO: [VRFC 10-311] analyzing module Tanh_60
+INFO: [VRFC 10-311] analyzing module Tanh_61
+INFO: [VRFC 10-311] analyzing module Tanh_62
+INFO: [VRFC 10-311] analyzing module Tanh_7
+INFO: [VRFC 10-311] analyzing module Tanh_8
+INFO: [VRFC 10-311] analyzing module Tanh_9
+INFO: [VRFC 10-311] analyzing module Tanh_Matrix
+INFO: [VRFC 10-311] analyzing module fp_mul
+INFO: [VRFC 10-311] analyzing module fp_mul_100
+INFO: [VRFC 10-311] analyzing module fp_mul_101
+INFO: [VRFC 10-311] analyzing module fp_mul_102
+INFO: [VRFC 10-311] analyzing module fp_mul_103
+INFO: [VRFC 10-311] analyzing module fp_mul_104
+INFO: [VRFC 10-311] analyzing module fp_mul_105
+INFO: [VRFC 10-311] analyzing module fp_mul_106
+INFO: [VRFC 10-311] analyzing module fp_mul_107
+INFO: [VRFC 10-311] analyzing module fp_mul_108
+INFO: [VRFC 10-311] analyzing module fp_mul_109
+INFO: [VRFC 10-311] analyzing module fp_mul_110
+INFO: [VRFC 10-311] analyzing module fp_mul_111
+INFO: [VRFC 10-311] analyzing module fp_mul_112
+INFO: [VRFC 10-311] analyzing module fp_mul_113
+INFO: [VRFC 10-311] analyzing module fp_mul_114
+INFO: [VRFC 10-311] analyzing module fp_mul_115
+INFO: [VRFC 10-311] analyzing module fp_mul_116
+INFO: [VRFC 10-311] analyzing module fp_mul_117
+INFO: [VRFC 10-311] analyzing module fp_mul_118
+INFO: [VRFC 10-311] analyzing module fp_mul_119
+INFO: [VRFC 10-311] analyzing module fp_mul_120
+INFO: [VRFC 10-311] analyzing module fp_mul_121
+INFO: [VRFC 10-311] analyzing module fp_mul_122
+INFO: [VRFC 10-311] analyzing module fp_mul_123
+INFO: [VRFC 10-311] analyzing module fp_mul_124
+INFO: [VRFC 10-311] analyzing module fp_mul_125
+INFO: [VRFC 10-311] analyzing module fp_mul_63
+INFO: [VRFC 10-311] analyzing module fp_mul_64
+INFO: [VRFC 10-311] analyzing module fp_mul_65
+INFO: [VRFC 10-311] analyzing module fp_mul_66
+INFO: [VRFC 10-311] analyzing module fp_mul_67
+INFO: [VRFC 10-311] analyzing module fp_mul_68
+INFO: [VRFC 10-311] analyzing module fp_mul_69
+INFO: [VRFC 10-311] analyzing module fp_mul_70
+INFO: [VRFC 10-311] analyzing module fp_mul_71
+INFO: [VRFC 10-311] analyzing module fp_mul_72
+INFO: [VRFC 10-311] analyzing module fp_mul_73
+INFO: [VRFC 10-311] analyzing module fp_mul_74
+INFO: [VRFC 10-311] analyzing module fp_mul_75
+INFO: [VRFC 10-311] analyzing module fp_mul_76
+INFO: [VRFC 10-311] analyzing module fp_mul_77
+INFO: [VRFC 10-311] analyzing module fp_mul_78
+INFO: [VRFC 10-311] analyzing module fp_mul_79
+INFO: [VRFC 10-311] analyzing module fp_mul_80
+INFO: [VRFC 10-311] analyzing module fp_mul_81
+INFO: [VRFC 10-311] analyzing module fp_mul_82
+INFO: [VRFC 10-311] analyzing module fp_mul_83
+INFO: [VRFC 10-311] analyzing module fp_mul_84
+INFO: [VRFC 10-311] analyzing module fp_mul_85
+INFO: [VRFC 10-311] analyzing module fp_mul_86
+INFO: [VRFC 10-311] analyzing module fp_mul_87
+INFO: [VRFC 10-311] analyzing module fp_mul_88
+INFO: [VRFC 10-311] analyzing module fp_mul_89
+INFO: [VRFC 10-311] analyzing module fp_mul_90
+INFO: [VRFC 10-311] analyzing module fp_mul_91
+INFO: [VRFC 10-311] analyzing module fp_mul_92
+INFO: [VRFC 10-311] analyzing module fp_mul_93
+INFO: [VRFC 10-311] analyzing module fp_mul_94
+INFO: [VRFC 10-311] analyzing module fp_mul_95
+INFO: [VRFC 10-311] analyzing module fp_mul_96
+INFO: [VRFC 10-311] analyzing module fp_mul_97
+INFO: [VRFC 10-311] analyzing module fp_mul_98
+INFO: [VRFC 10-311] analyzing module fp_mul_99
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/Assignment 2 updated submission (1)/ANN_assignment/ANN_assignment.srcs/sources_1/new/flp_postnorm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flp_postnorm
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/Assignment 2 updated submission (1)/ANN_assignment/ANN_assignment.srcs/sources_1/imports/FLP_Lab1/fp_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fp_mul
+WARNING: [VRFC 10-1195] overwriting previous definition of module fp_mul [E:/edu/sem6/logic2/Assignment 2 updated submission (1)/ANN_assignment/ANN_assignment.srcs/sources_1/imports/FLP_Lab1/fp_mul.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/Assignment 2 updated submission (1)/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/fp_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fp_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/Tanh/Tanh.srcs/sources_1/new/Tanh.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Tanh
+WARNING: [VRFC 10-1195] overwriting previous definition of module Tanh [E:/edu/sem6/logic2/Tanh/Tanh.srcs/sources_1/new/Tanh.v:2]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/Tanh/Tanh.srcs/sources_1/new/Tanh_Matrix.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Tanh_Matrix
+WARNING: [VRFC 10-756] identifier InpSize is used before its declaration [E:/edu/sem6/logic2/Tanh/Tanh.srcs/sources_1/new/Tanh_Matrix.v:3]
+WARNING: [VRFC 10-756] identifier InpSize is used before its declaration [E:/edu/sem6/logic2/Tanh/Tanh.srcs/sources_1/new/Tanh_Matrix.v:5]
+WARNING: [VRFC 10-1195] overwriting previous definition of module Tanh_Matrix [E:/edu/sem6/logic2/Tanh/Tanh.srcs/sources_1/new/Tanh_Matrix.v:2]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/Tanh/Tanh.srcs/sources_1/new/Tanh_Matrix_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Tanh_Matrix_tb
+WARNING: [VRFC 10-986] literal value truncated to fit in 2047 bits [E:/edu/sem6/logic2/Tanh/Tanh.srcs/sources_1/new/Tanh_Matrix_tb.v:17]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/Tanh/Tanh.sim/sim_1/synth/timing/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [E:/edu/sem6/logic2/Tanh/Tanh.sim/sim_1/synth/timing/glbl.v:6]

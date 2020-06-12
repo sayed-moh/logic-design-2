@@ -1,0 +1,191 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Apr 14 22:03:23 2020
+# Process ID: 11612
+# Log file: D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.runs/synth_1/weights_fileReduced.vds
+# Journal file: D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source weights_fileReduced.tcl -notrace
+Command: synth_design -top weights_fileReduced -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 266.789 ; gain = 54.125
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'weights_fileReduced' [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:1]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_WIDTH bound to: 26 - type: integer 
+	Parameter fc_columns bound to: 64 - type: integer 
+	Parameter fc_rows bound to: 16 - type: integer 
+	Parameter tot_weight_size bound to: 1024 - type: integer 
+	Parameter file bound to: G:/abotaleb/teaching/logic2/lab7/ANN_Lab/ANN_Lab.srcs/sources_1/new/a.txt - type: string 
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file, ignoring [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:28]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: RAM has too many ports (16). Maximum supported = 16. 
+	2: Found multiple reads with same address from RAM. 
+	3: Unable to determine number of words or word size in RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+WARNING: [Synth 8-3848] Net mem in module/entity weights_fileReduced does not have driver. [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:14]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'weights_fileReduced' (1#1) [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/weights_fileReduced.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 799.984 ; gain = 587.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 799.984 ; gain = 587.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 799.984 ; gain = 587.320
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:35 . Memory (MB): peak = 1488.082 ; gain = 1275.418
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------------+------------+----------+
+|      |RTL Partition            |Replication |Instances |
++------+-------------------------+------------+----------+
+|1     |weights_fileReduced__GB0 |           1|   2101345|
++------+-------------------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module weights_fileReduced 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:45 ; elapsed = 00:00:44 . Memory (MB): peak = 2228.285 ; gain = 2015.621
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------

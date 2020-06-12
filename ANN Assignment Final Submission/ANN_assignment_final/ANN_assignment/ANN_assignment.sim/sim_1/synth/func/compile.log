@@ -1,0 +1,113 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/ANN Assignment Final Submission/ANN_assignment_final/ANN_assignment/ANN_assignment.sim/sim_1/synth/func/PE_FC_ANN_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FC_Layer_ANN
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_0
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_1
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_10
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_11
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_12
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_13
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_14
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_15
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_16
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_17
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_18
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_19
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_2
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_20
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_21
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_22
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_23
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_24
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_25
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_26
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_27
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_28
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_29
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_3
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_30
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_4
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_5
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_6
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_7
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_8
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_9
+INFO: [VRFC 10-311] analyzing module fp_add
+INFO: [VRFC 10-311] analyzing module fp_add_31
+INFO: [VRFC 10-311] analyzing module fp_add_33
+INFO: [VRFC 10-311] analyzing module fp_add_35
+INFO: [VRFC 10-311] analyzing module fp_add_37
+INFO: [VRFC 10-311] analyzing module fp_add_39
+INFO: [VRFC 10-311] analyzing module fp_add_41
+INFO: [VRFC 10-311] analyzing module fp_add_43
+INFO: [VRFC 10-311] analyzing module fp_add_45
+INFO: [VRFC 10-311] analyzing module fp_add_47
+INFO: [VRFC 10-311] analyzing module fp_add_49
+INFO: [VRFC 10-311] analyzing module fp_add_51
+INFO: [VRFC 10-311] analyzing module fp_add_53
+INFO: [VRFC 10-311] analyzing module fp_add_55
+INFO: [VRFC 10-311] analyzing module fp_add_57
+INFO: [VRFC 10-311] analyzing module fp_add_59
+INFO: [VRFC 10-311] analyzing module fp_add_61
+INFO: [VRFC 10-311] analyzing module fp_add_63
+INFO: [VRFC 10-311] analyzing module fp_add_65
+INFO: [VRFC 10-311] analyzing module fp_add_67
+INFO: [VRFC 10-311] analyzing module fp_add_69
+INFO: [VRFC 10-311] analyzing module fp_add_71
+INFO: [VRFC 10-311] analyzing module fp_add_73
+INFO: [VRFC 10-311] analyzing module fp_add_75
+INFO: [VRFC 10-311] analyzing module fp_add_77
+INFO: [VRFC 10-311] analyzing module fp_add_79
+INFO: [VRFC 10-311] analyzing module fp_add_81
+INFO: [VRFC 10-311] analyzing module fp_add_83
+INFO: [VRFC 10-311] analyzing module fp_add_85
+INFO: [VRFC 10-311] analyzing module fp_add_87
+INFO: [VRFC 10-311] analyzing module fp_add_89
+INFO: [VRFC 10-311] analyzing module fp_add_91
+INFO: [VRFC 10-311] analyzing module fp_mul
+INFO: [VRFC 10-311] analyzing module fp_mul_32
+INFO: [VRFC 10-311] analyzing module fp_mul_34
+INFO: [VRFC 10-311] analyzing module fp_mul_36
+INFO: [VRFC 10-311] analyzing module fp_mul_38
+INFO: [VRFC 10-311] analyzing module fp_mul_40
+INFO: [VRFC 10-311] analyzing module fp_mul_42
+INFO: [VRFC 10-311] analyzing module fp_mul_44
+INFO: [VRFC 10-311] analyzing module fp_mul_46
+INFO: [VRFC 10-311] analyzing module fp_mul_48
+INFO: [VRFC 10-311] analyzing module fp_mul_50
+INFO: [VRFC 10-311] analyzing module fp_mul_52
+INFO: [VRFC 10-311] analyzing module fp_mul_54
+INFO: [VRFC 10-311] analyzing module fp_mul_56
+INFO: [VRFC 10-311] analyzing module fp_mul_58
+INFO: [VRFC 10-311] analyzing module fp_mul_60
+INFO: [VRFC 10-311] analyzing module fp_mul_62
+INFO: [VRFC 10-311] analyzing module fp_mul_64
+INFO: [VRFC 10-311] analyzing module fp_mul_66
+INFO: [VRFC 10-311] analyzing module fp_mul_68
+INFO: [VRFC 10-311] analyzing module fp_mul_70
+INFO: [VRFC 10-311] analyzing module fp_mul_72
+INFO: [VRFC 10-311] analyzing module fp_mul_74
+INFO: [VRFC 10-311] analyzing module fp_mul_76
+INFO: [VRFC 10-311] analyzing module fp_mul_78
+INFO: [VRFC 10-311] analyzing module fp_mul_80
+INFO: [VRFC 10-311] analyzing module fp_mul_82
+INFO: [VRFC 10-311] analyzing module fp_mul_84
+INFO: [VRFC 10-311] analyzing module fp_mul_86
+INFO: [VRFC 10-311] analyzing module fp_mul_88
+INFO: [VRFC 10-311] analyzing module fp_mul_90
+INFO: [VRFC 10-311] analyzing module fp_mul_92
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/ANN Assignment Final Submission/ANN_assignment_final/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/fp_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fp_add
+WARNING: [VRFC 10-1195] overwriting previous definition of module fp_add [E:/edu/sem6/logic2/ANN Assignment Final Submission/ANN_assignment_final/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/fp_add.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/ANN Assignment Final Submission/ANN_assignment_final/ANN_assignment/ANN_assignment.srcs/sources_1/imports/FLP_Lab1/fp_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fp_mul
+WARNING: [VRFC 10-1195] overwriting previous definition of module fp_mul [E:/edu/sem6/logic2/ANN Assignment Final Submission/ANN_assignment_final/ANN_assignment/ANN_assignment.srcs/sources_1/imports/FLP_Lab1/fp_mul.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/ANN Assignment Final Submission/ANN_assignment_final/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/PE_FC_ANN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN
+WARNING: [VRFC 10-1195] overwriting previous definition of module PE_FC_ANN [E:/edu/sem6/logic2/ANN Assignment Final Submission/ANN_assignment_final/ANN_assignment/ANN_assignment.srcs/sources_1/imports/Help Verilog Files/PE_FC_ANN.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/ANN Assignment Final Submission/ANN_assignment_final/ANN_assignment/ANN_assignment.srcs/sources_1/new/PE_FC_ANN_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE_FC_ANN_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/edu/sem6/logic2/ANN Assignment Final Submission/ANN_assignment_final/ANN_assignment/ANN_assignment.sim/sim_1/synth/func/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [E:/edu/sem6/logic2/ANN Assignment Final Submission/ANN_assignment_final/ANN_assignment/ANN_assignment.sim/sim_1/synth/func/glbl.v:6]

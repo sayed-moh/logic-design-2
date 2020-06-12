@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../ANN_assignment.srcs/sources_1/imports/Help Verilog Files/fp_add.v"
+verilog xil_defaultlib  "../../../ANN_assignment.srcs/sources_1/imports/FLP_Lab1/fp_mul.v"
+verilog xil_defaultlib  "../../../ANN_assignment.srcs/sources_1/imports/Help Verilog Files/PE_FC_ANN.v"
+verilog xil_defaultlib  "../../../ANN_assignment.srcs/sources_1/new/PE_FC_ANN_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Apr 15 00:33:36 2020
+# Process ID: 19040
+# Log file: D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.runs/synth_1/ANN.vds
+# Journal file: D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ANN.tcl -notrace
+Command: synth_design -top ANN -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+WARNING: [Synth 8-2611] redeclaration of ansi port output_fc_ys_relu is not allowed [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/new/ANN.v:48]
+WARNING: [Synth 8-976] output_fc_ys_relu has already been declared [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/new/ANN.v:48]
+WARNING: [Synth 8-2654] second declaration of output_fc_ys_relu ignored [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/new/ANN.v:48]
+INFO: [Synth 8-994] output_fc_ys_relu is declared here [D:/Logic 2/assignment 2/ANN/ANN_assignment/ANN_assignment.srcs/sources_1/new/ANN.v:28]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 275.723 ; gain = 63.574
+---------------------------------------------------------------------------------

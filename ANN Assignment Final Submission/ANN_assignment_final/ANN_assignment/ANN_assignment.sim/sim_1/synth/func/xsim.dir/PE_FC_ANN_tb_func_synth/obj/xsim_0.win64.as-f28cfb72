@@ -1,0 +1,1217 @@
+	.def	 _execute_7;
+	.scl	2;
+	.type	32;
+	.endef
+	.text
+	.globl	_execute_7
+	.align	16, 0x90
+_execute_7:                             # @_execute_7
+# BB#0:
+	pushq	%rbp
+	movq	%rsp, %rbp
+	pushq	%r15
+	pushq	%r14
+	pushq	%r13
+	pushq	%r12
+	pushq	%rsi
+	pushq	%rdi
+	pushq	%rbx
+	subq	$248, %rsp
+	movq	%rdx, %rsi
+	.align	16, 0x90
+.LBB0_1:                                # =>This Inner Loop Header: Depth=1
+	movl	$1, %edx
+	movq	%rsi, %rcx
+	callq	*__imp__iki_vlog_set_threadId_for_unrandom(%rip)
+	movq	472(%rsi), %rax
+	testq	%rax, %rax
+	je	.LBB0_12
+# BB#2:                                 #   in Loop: Header=BB0_1 Depth=1
+	jmpq	*%rax
+.Ltmp3:                                 # Block address taken
+.LBB0_3:
+	movb	$0, 552(%rsi)
+	movl	$4194341, %ecx          # imm = 0x400025
+	callq	*__imp__iki_stmt_online(%rip)
+	leaq	40(%rsi), %rbx
+	movq	__imp__iki_vlog_signal_handle_value_input(%rip), %r14
+	movl	$32, %edx
+	movq	%rbx, %rcx
+	callq	*%r14
+	movq	__imp__iki_vlog_get_bit_select_value_simple(%rip), %r13
+	leaq	-64(%rbp), %r12
+	movl	$31, %r8d
+	movq	%r12, %rcx
+	movq	%rax, %rdx
+	callq	*%r13
+	movq	%rax, %rdi
+	leaq	96(%rsi), %rcx
+	movq	%rcx, -176(%rbp)        # 8-byte Spill
+	movl	$32, %edx
+	callq	*%r14
+	leaq	-72(%rbp), %rcx
+	movl	$31, %r8d
+	movq	%rax, %rdx
+	callq	*%r13
+	movl	(%rdi), %ecx
+	xorl	(%rax), %ecx
+	movl	%ecx, -80(%rbp)
+	movl	4(%rdi), %ecx
+	orl	4(%rax), %ecx
+	movl	%ecx, -76(%rbp)
+	je	.LBB0_4
+# BB#13:
+	orl	%ecx, -80(%rbp)
+.LBB0_4:
+	leaq	264(%rsi), %rcx
+	leaq	560(%rsi), %rdx
+	leaq	-80(%rbp), %r8
+	xorl	%r9d, %r9d
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var_setback0(%rip)
+	movl	$4194345, %ecx          # imm = 0x400029
+	callq	*__imp__iki_stmt_online(%rip)
+	movl	$32, %edx
+	movq	%rbx, %rcx
+	callq	*%r14
+	movl	$1, -112(%rbp)
+	movl	$31, -108(%rbp)
+	movl	$0, -104(%rbp)
+	leaq	-112(%rbp), %rcx
+	movq	%rcx, 80(%rsp)
+	leaq	ng1(%rip), %r13
+	movq	%r13, 56(%rsp)
+	movq	%rbx, -184(%rbp)        # 8-byte Spill
+	leaq	ng0(%rip), %rbx
+	movq	%rbx, 32(%rsp)
+	movl	$1, 112(%rsp)
+	movl	$2, 104(%rsp)
+	movl	$1, 96(%rsp)
+	movq	$0, 88(%rsp)
+	movl	$1, 72(%rsp)
+	movl	$32, 64(%rsp)
+	movl	$1, 48(%rsp)
+	movl	$32, 40(%rsp)
+	movq	__imp__iki_vlog_get_part_select_value(%rip), %rdi
+	movl	$1, %edx
+	movl	$23, %r8d
+	movq	%r12, %rcx
+	movq	%rax, %r9
+	callq	*%rdi
+	movq	%r12, 48(%rsp)
+	leaq	ng2(%rip), %rax
+	movq	%rax, 32(%rsp)
+	movq	%rax, %r12
+	movl	$23, 56(%rsp)
+	movl	$1, 40(%rsp)
+	movq	__imp__iki_vlog_concat(%rip), %r15
+	leaq	-96(%rbp), %rcx
+	movl	$48, %edx
+	movl	$24, %r8d
+	movl	$2, %r9d
+	callq	*%r15
+	movl	$32, %edx
+	movq	-176(%rbp), %rcx        # 8-byte Reload
+	callq	*%r14
+	movl	$1, -144(%rbp)
+	movl	$31, -140(%rbp)
+	movl	$0, -136(%rbp)
+	leaq	-144(%rbp), %rcx
+	movq	%rcx, 80(%rsp)
+	movq	%r13, 56(%rsp)
+	movq	%rbx, 32(%rsp)
+	movl	$1, 112(%rsp)
+	movl	$2, 104(%rsp)
+	movl	$1, 96(%rsp)
+	movq	$0, 88(%rsp)
+	movl	$1, 72(%rsp)
+	movl	$32, 64(%rsp)
+	movl	$1, 48(%rsp)
+	movl	$32, 40(%rsp)
+	movl	$1, %edx
+	movl	$23, %r8d
+	leaq	-72(%rbp), %rbx
+	movq	%rbx, %rcx
+	movq	%rax, %r9
+	callq	*%rdi
+	movq	%rbx, 48(%rsp)
+	movq	%r12, 32(%rsp)
+	movl	$23, 56(%rsp)
+	movl	$1, 40(%rsp)
+	leaq	-128(%rbp), %r13
+	movl	$48, %edx
+	movl	$24, %r8d
+	movl	$2, %r9d
+	movq	%r13, %rcx
+	callq	*%r15
+	movq	%r13, 32(%rsp)
+	movl	$48, 40(%rsp)
+	leaq	-160(%rbp), %rcx
+	movl	$48, %edx
+	movl	$48, %r9d
+	leaq	-96(%rbp), %r8
+	callq	*__imp__iki_vlog_unsigned_multiply(%rip)
+	leaq	208(%rsi), %rcx
+	leaq	592(%rsi), %rdx
+	movl	$47, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	%rax, %r8
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var(%rip)
+	movl	$4194347, %ecx          # imm = 0x40002B
+	callq	*__imp__iki_stmt_online(%rip)
+	movl	$32, %edx
+	movq	-184(%rbp), %rcx        # 8-byte Reload
+	callq	*%r14
+	movl	$1, -112(%rbp)
+	movl	$31, -108(%rbp)
+	movl	$0, -104(%rbp)
+	leaq	-112(%rbp), %rcx
+	movq	%rcx, 80(%rsp)
+	leaq	ng4(%rip), %rdi
+	movq	%rdi, 56(%rsp)
+	leaq	ng3(%rip), %r12
+	movq	%r12, 32(%rsp)
+	movl	$1, 112(%rsp)
+	movl	$2, 104(%rsp)
+	movl	$1, 96(%rsp)
+	movq	$0, 88(%rsp)
+	movl	$1, 72(%rsp)
+	movl	$32, 64(%rsp)
+	movl	$1, 48(%rsp)
+	movl	$32, 40(%rsp)
+	movl	$1, %edx
+	movl	$9, %r8d
+	leaq	-64(%rbp), %rcx
+	movq	%rax, %r9
+	movq	__imp__iki_vlog_get_part_select_value(%rip), %r13
+	callq	*%r13
+	movl	$32, %edx
+	movq	-176(%rbp), %rcx        # 8-byte Reload
+	callq	*%r14
+	movl	$1, -144(%rbp)
+	movl	$31, -140(%rbp)
+	movl	$0, -136(%rbp)
+	leaq	-144(%rbp), %rcx
+	movq	%rcx, 80(%rsp)
+	movq	%rdi, 56(%rsp)
+	movq	%r12, 32(%rsp)
+	movl	$1, 112(%rsp)
+	movl	$2, 104(%rsp)
+	movl	$1, 96(%rsp)
+	movq	$0, 88(%rsp)
+	movl	$1, 72(%rsp)
+	movl	$32, 64(%rsp)
+	movl	$1, 48(%rsp)
+	movl	$32, 40(%rsp)
+	movl	$1, %edx
+	movl	$9, %r8d
+	movq	%rbx, %rcx
+	movq	%rax, %r9
+	callq	*%r13
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	leaq	-80(%rbp), %rcx
+	callq	*__imp__iki_std_memset(%rip)
+	cmpl	$0, -60(%rbp)
+	jne	.LBB0_14
+# BB#5:
+	cmpl	$0, -68(%rbp)
+	je	.LBB0_6
+.LBB0_14:
+	movq	$-1, -80(%rbp)
+.LBB0_7:
+	andl	$511, -80(%rbp)         # imm = 0x1FF
+	andl	$511, -76(%rbp)         # imm = 0x1FF
+	movq	__imp__iki_std_memset(%rip), %r12
+	leaq	-168(%rbp), %rdi
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	movq	%rdi, %rcx
+	callq	*%r12
+	leaq	ng5(%rip), %rax
+	movq	%rax, 32(%rsp)
+	movl	$9, 40(%rsp)
+	leaq	-80(%rbp), %r8
+	movl	$9, %edx
+	movl	$9, %r9d
+	movq	%rdi, %rcx
+	callq	*__imp__iki_vlog_unsigned_minus(%rip)
+	leaq	320(%rsi), %rbx
+	leaq	656(%rsi), %r15
+	movl	$8, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	%rbx, %rcx
+	movq	%r15, %rdx
+	movq	%rax, %r8
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var(%rip)
+	movl	$4194351, %ecx          # imm = 0x40002F
+	callq	*__imp__iki_stmt_online(%rip)
+	movq	216(%rsi), %rdx
+	leaq	-64(%rbp), %rcx
+	movl	$47, %r8d
+	callq	*__imp__iki_vlog_get_bit_select_value_simple(%rip)
+	movq	%rax, %rdi
+	leaq	-72(%rbp), %r14
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	movq	%r14, %rcx
+	callq	*%r12
+	movl	(%rdi), %ecx
+	movl	4(%rdi), %edi
+	xorl	ng6(%rip), %ecx
+	movl	ng6+4(%rip), %edx
+	movl	%edi, %eax
+	xorl	%edx, %eax
+	orl	%ecx, %eax
+	orl	%edx, %edi
+	movl	%edi, %ecx
+	notl	%ecx
+	testl	%ecx, %eax
+	jne	.LBB0_9
+# BB#8:
+	testl	%edi, %edi
+	movl	$1, -72(%rbp)
+	je	.LBB0_9
+# BB#15:
+	movl	$1, -68(%rbp)
+.LBB0_9:
+	movl	-68(%rbp), %eax
+	notl	%eax
+	testl	-72(%rbp), %eax
+	je	.LBB0_10
+# BB#16:
+	movl	$4194353, %ecx          # imm = 0x400031
+	callq	*__imp__iki_stmt_online(%rip)
+	movq	8(%rbx), %rdi
+	leaq	-80(%rbp), %rcx
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	callq	*__imp__iki_std_memset(%rip)
+	cmpl	$0, 4(%rdi)
+	jne	.LBB0_20
+# BB#17:
+	cmpl	$0, ng6+4(%rip)
+	je	.LBB0_18
+.LBB0_20:
+	movq	$-1, -80(%rbp)
+.LBB0_19:
+	leaq	-112(%rbp), %r13
+	movl	$8, 32(%rsp)
+	movq	__imp__iki_vlog_schedule_transaction_blocking_var(%rip), %r12
+	leaq	-80(%rbp), %r8
+	xorl	%r9d, %r9d
+	movq	%rbx, %rcx
+	movq	%r15, %rdx
+	callq	*%r12
+	movl	$4194354, %ecx          # imm = 0x400032
+	callq	*__imp__iki_stmt_online(%rip)
+	movq	216(%rsi), %r9
+	movl	$1, -112(%rbp)
+	movl	$47, -108(%rbp)
+	movl	$0, -104(%rbp)
+	movq	%r13, 80(%rsp)
+	leaq	ng8(%rip), %rax
+	movq	%rax, 56(%rsp)
+	leaq	ng7(%rip), %rax
+	movq	%rax, 32(%rsp)
+	movl	$1, 112(%rsp)
+	movl	$2, 104(%rsp)
+	movl	$1, 96(%rsp)
+	movq	$0, 88(%rsp)
+	movl	$1, 72(%rsp)
+	movl	$32, 64(%rsp)
+	movl	$1, 48(%rsp)
+	movl	$32, 40(%rsp)
+	leaq	-64(%rbp), %rdi
+	movl	$1, %edx
+	movl	$23, %r8d
+	movq	%rdi, %rcx
+	callq	*__imp__iki_vlog_get_part_select_value(%rip)
+	leaq	376(%rsi), %rcx
+	leaq	720(%rsi), %rdx
+	movl	$22, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	%rdi, %r8
+	callq	*%r12
+	jmp	.LBB0_11
+.LBB0_10:
+	movl	$4194358, %ecx          # imm = 0x400036
+	callq	*__imp__iki_stmt_online(%rip)
+	movq	216(%rsi), %r9
+	movl	$1, -112(%rbp)
+	movl	$47, -108(%rbp)
+	movl	$0, -104(%rbp)
+	leaq	-112(%rbp), %r13
+	movq	%r13, 80(%rsp)
+	leaq	ng4(%rip), %rax
+	movq	%rax, 56(%rsp)
+	leaq	ng9(%rip), %rax
+	movq	%rax, 32(%rsp)
+	movl	$1, 112(%rsp)
+	movl	$2, 104(%rsp)
+	movl	$1, 96(%rsp)
+	movq	$0, 88(%rsp)
+	movl	$1, 72(%rsp)
+	movl	$32, 64(%rsp)
+	movl	$1, 48(%rsp)
+	movl	$32, 40(%rsp)
+	leaq	-64(%rbp), %rdi
+	movl	$1, %edx
+	movl	$23, %r8d
+	movq	%rdi, %rcx
+	callq	*__imp__iki_vlog_get_part_select_value(%rip)
+	leaq	376(%rsi), %rcx
+	leaq	720(%rsi), %rdx
+	movl	$22, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	%rdi, %r8
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var(%rip)
+.LBB0_11:
+	movl	$4194362, %ecx          # imm = 0x40003A
+	callq	*__imp__iki_stmt_online(%rip)
+	movq	328(%rsi), %r9
+	movq	384(%rsi), %rdi
+	movl	$1, -112(%rbp)
+	movl	$8, -108(%rbp)
+	movl	$0, -104(%rbp)
+	movq	%r13, 80(%rsp)
+	leaq	ng1(%rip), %rax
+	movq	%rax, 56(%rsp)
+	leaq	ng10(%rip), %rax
+	movq	%rax, 32(%rsp)
+	movl	$1, 112(%rsp)
+	movl	$2, 104(%rsp)
+	movl	$1, 96(%rsp)
+	movq	$0, 88(%rsp)
+	movl	$1, 72(%rsp)
+	movl	$32, 64(%rsp)
+	movl	$1, 48(%rsp)
+	movl	$32, 40(%rsp)
+	movl	$1, %edx
+	movl	$8, %r8d
+	movq	%r14, %rcx
+	callq	*__imp__iki_vlog_get_part_select_value(%rip)
+	movq	272(%rsi), %rax
+	movq	%rdi, 64(%rsp)
+	movq	%r14, 48(%rsp)
+	movq	%rax, 32(%rsp)
+	movl	$23, 72(%rsp)
+	movl	$8, 56(%rsp)
+	movl	$1, 40(%rsp)
+	leaq	-64(%rbp), %rdi
+	movl	$32, %edx
+	movl	$32, %r8d
+	movl	$3, %r9d
+	movq	%rdi, %rcx
+	callq	*__imp__iki_vlog_concat(%rip)
+	leaq	152(%rsi), %rcx
+	leaq	752(%rsi), %rdx
+	movl	$31, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	%rdi, %r8
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var(%rip)
+.LBB0_12:
+	movl	$4194339, %ecx          # imm = 0x400023
+	callq	*__imp__iki_stmt_online(%rip)
+	movb	$1, 552(%rsi)
+	leaq	.Ltmp3(%rip), %rax
+	movq	%rax, 472(%rsi)
+	addq	$248, %rsp
+	popq	%rbx
+	popq	%rdi
+	popq	%rsi
+	popq	%r12
+	popq	%r13
+	popq	%r14
+	popq	%r15
+	popq	%rbp
+	ret
+.LBB0_6:
+	movl	-64(%rbp), %eax
+	addl	-72(%rbp), %eax
+	movl	%eax, -80(%rbp)
+	movl	$0, -76(%rbp)
+	jmp	.LBB0_7
+.LBB0_18:
+	movl	(%rdi), %eax
+	addl	ng6(%rip), %eax
+	movl	%eax, -80(%rbp)
+	movl	$0, -76(%rbp)
+	jmp	.LBB0_19
+
+	.def	 _execute_9;
+	.scl	2;
+	.type	32;
+	.endef
+	.globl	_execute_9
+	.align	16, 0x90
+_execute_9:                             # @_execute_9
+# BB#0:
+	pushq	%rbp
+	movq	%rsp, %rbp
+	pushq	%r15
+	pushq	%r14
+	pushq	%r13
+	pushq	%r12
+	pushq	%rsi
+	pushq	%rdi
+	pushq	%rbx
+	subq	$232, %rsp
+	movq	%rdx, %rsi
+	.align	16, 0x90
+.LBB1_1:                                # =>This Inner Loop Header: Depth=1
+	movl	$2, %edx
+	movq	%rsi, %rcx
+	callq	*__imp__iki_vlog_set_threadId_for_unrandom(%rip)
+	movq	808(%rsi), %rax
+	testq	%rax, %rax
+	je	.LBB1_18
+# BB#2:                                 #   in Loop: Header=BB1_1 Depth=1
+	jmpq	*%rax
+.Ltmp7:                                 # Block address taken
+.LBB1_3:
+	movb	$0, 888(%rsi)
+	movq	__imp__iki_stmt_online(%rip), %rdi
+	movl	$5242896, %ecx          # imm = 0x500010
+	callq	*%rdi
+	movq	%rdi, %r14
+	leaq	40(%rsi), %rcx
+	movq	%rcx, -136(%rbp)        # 8-byte Spill
+	movq	__imp__iki_vlog_signal_handle_value_input(%rip), %rdi
+	movl	$32, %edx
+	movq	%rcx, %r15
+	callq	*%rdi
+	movq	__imp__iki_vlog_get_bit_select_value_simple(%rip), %rbx
+	leaq	-64(%rbp), %rcx
+	movl	$31, %r8d
+	movq	%rcx, %r12
+	movq	%rax, %rdx
+	callq	*%rbx
+	leaq	208(%rsi), %rcx
+	leaq	896(%rsi), %rdx
+	movq	__imp__iki_vlog_schedule_transaction_blocking_var_setback0(%rip), %r13
+	xorl	%r9d, %r9d
+	movq	%rax, %r8
+	callq	*%r13
+	movl	$5242897, %ecx          # imm = 0x500011
+	callq	*%r14
+	leaq	96(%rsi), %rcx
+	movq	%rcx, -120(%rbp)        # 8-byte Spill
+	movl	$32, %edx
+	callq	*%rdi
+	movl	$31, %r8d
+	movq	%r12, %rcx
+	movq	%rax, %rdx
+	callq	*%rbx
+	leaq	264(%rsi), %rcx
+	leaq	928(%rsi), %rdx
+	xorl	%r9d, %r9d
+	movq	%rax, %r8
+	callq	*%r13
+	movl	$5242898, %ecx          # imm = 0x500012
+	callq	*%r14
+	movl	$32, %edx
+	movq	%r15, %rcx
+	callq	*%rdi
+	movl	$1, -80(%rbp)
+	movl	$31, -76(%rbp)
+	movl	$0, -72(%rbp)
+	leaq	-80(%rbp), %rcx
+	movq	%rcx, 80(%rsp)
+	leaq	ng4(%rip), %rcx
+	movq	%rcx, 56(%rsp)
+	leaq	ng3(%rip), %rcx
+	movq	%rcx, 32(%rsp)
+	movl	$1, 112(%rsp)
+	movl	$2, 104(%rsp)
+	movl	$1, 96(%rsp)
+	movq	$0, 88(%rsp)
+	movl	$1, 72(%rsp)
+	movl	$32, 64(%rsp)
+	movl	$1, 48(%rsp)
+	movl	$32, 40(%rsp)
+	movl	$1, %edx
+	movl	$8, %r8d
+	movq	%r12, %rcx
+	movq	%rax, %r9
+	callq	*__imp__iki_vlog_get_part_select_value(%rip)
+	leaq	376(%rsi), %rcx
+	movq	%rcx, -128(%rbp)        # 8-byte Spill
+	leaq	1152(%rsi), %rdx
+	movq	%rdx, -160(%rbp)        # 8-byte Spill
+	movl	$7, 32(%rsp)
+	movq	__imp__iki_vlog_schedule_transaction_blocking_var(%rip), %r15
+	xorl	%r9d, %r9d
+	movq	%r12, %r8
+	callq	*%r15
+	movl	$5242899, %ecx          # imm = 0x500013
+	movq	%r14, %rbx
+	callq	*%rbx
+	movl	$32, %edx
+	movq	-120(%rbp), %rcx        # 8-byte Reload
+	callq	*%rdi
+	movl	$1, -80(%rbp)
+	movl	$31, -76(%rbp)
+	movl	$0, -72(%rbp)
+	leaq	-80(%rbp), %r14
+	movq	%r14, 80(%rsp)
+	leaq	ng4(%rip), %rcx
+	movq	%rcx, 56(%rsp)
+	leaq	ng3(%rip), %rcx
+	movq	%rcx, 32(%rsp)
+	movl	$1, 112(%rsp)
+	movl	$2, 104(%rsp)
+	movl	$1, 96(%rsp)
+	movq	$0, 88(%rsp)
+	movl	$1, 72(%rsp)
+	movl	$32, 64(%rsp)
+	movl	$1, 48(%rsp)
+	movl	$32, 40(%rsp)
+	movl	$1, %edx
+	movl	$8, %r8d
+	movq	%r12, %rcx
+	movq	%rax, %r9
+	movq	__imp__iki_vlog_get_part_select_value(%rip), %r13
+	callq	*%r13
+	leaq	432(%rsi), %rcx
+	movq	%rcx, -112(%rbp)        # 8-byte Spill
+	leaq	1408(%rsi), %rdx
+	movq	%rdx, -144(%rbp)        # 8-byte Spill
+	movl	$7, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	%r12, %r8
+	callq	*%r15
+	movl	$5242900, %ecx          # imm = 0x500014
+	callq	*%rbx
+	movl	$32, %edx
+	movq	-136(%rbp), %rcx        # 8-byte Reload
+	callq	*%rdi
+	movl	$1, -80(%rbp)
+	movl	$31, -76(%rbp)
+	movl	$0, -72(%rbp)
+	movq	%r14, 80(%rsp)
+	leaq	ng1(%rip), %rcx
+	movq	%rcx, 56(%rsp)
+	leaq	ng0(%rip), %rcx
+	movq	%rcx, 32(%rsp)
+	movl	$1, 112(%rsp)
+	movl	$2, 104(%rsp)
+	movl	$1, 96(%rsp)
+	movq	$0, 88(%rsp)
+	movl	$1, 72(%rsp)
+	movl	$32, 64(%rsp)
+	movl	$1, 48(%rsp)
+	movl	$32, 40(%rsp)
+	leaq	-88(%rbp), %rbx
+	movl	$1, %edx
+	movl	$23, %r8d
+	movq	%rbx, %rcx
+	movq	%rax, %r9
+	callq	*%r13
+	movq	%rbx, 48(%rsp)
+	leaq	ng2(%rip), %rax
+	movq	%rax, 32(%rsp)
+	movq	%rax, %r13
+	movl	$23, 56(%rsp)
+	movl	$1, 40(%rsp)
+	movq	__imp__iki_vlog_concat(%rip), %rdi
+	movl	$24, %edx
+	movl	$24, %r8d
+	movl	$2, %r9d
+	movq	%r12, %rcx
+	callq	*%rdi
+	movq	%rdi, %r14
+	leaq	488(%rsi), %rcx
+	movq	%rcx, -136(%rbp)        # 8-byte Spill
+	leaq	1120(%rsi), %rdx
+	movq	%rdx, -152(%rbp)        # 8-byte Spill
+	movl	$23, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	%r12, %r8
+	callq	*%r15
+	movl	$5242901, %ecx          # imm = 0x500015
+	movq	__imp__iki_stmt_online(%rip), %rdi
+	callq	*%rdi
+	movl	$32, %edx
+	movq	-120(%rbp), %rcx        # 8-byte Reload
+	callq	*__imp__iki_vlog_signal_handle_value_input(%rip)
+	movl	$1, -80(%rbp)
+	movl	$31, -76(%rbp)
+	movl	$0, -72(%rbp)
+	leaq	-80(%rbp), %rcx
+	movq	%rcx, 80(%rsp)
+	leaq	ng1(%rip), %rcx
+	movq	%rcx, 56(%rsp)
+	leaq	ng0(%rip), %rcx
+	movq	%rcx, 32(%rsp)
+	movl	$1, 112(%rsp)
+	movl	$2, 104(%rsp)
+	movl	$1, 96(%rsp)
+	movq	$0, 88(%rsp)
+	movl	$1, 72(%rsp)
+	movl	$32, 64(%rsp)
+	movl	$1, 48(%rsp)
+	movl	$32, 40(%rsp)
+	movl	$1, %edx
+	movl	$23, %r8d
+	movq	%rbx, %rcx
+	movq	%rax, %r9
+	callq	*__imp__iki_vlog_get_part_select_value(%rip)
+	movq	%rbx, 48(%rsp)
+	movq	%r13, 32(%rsp)
+	movl	$23, 56(%rsp)
+	movl	$1, 40(%rsp)
+	movl	$24, %edx
+	movl	$24, %r8d
+	movl	$2, %r9d
+	movq	%r12, %rcx
+	callq	*%r14
+	leaq	544(%rsi), %rcx
+	movq	%rcx, -120(%rbp)        # 8-byte Spill
+	leaq	1216(%rsi), %rbx
+	movl	$23, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	%rbx, %rdx
+	movq	%r12, %r8
+	callq	*%r15
+	movl	$5242903, %ecx          # imm = 0x500017
+	callq	*%rdi
+	movq	384(%rsi), %rdi
+	movq	440(%rsi), %r14
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	movq	%r12, %rcx
+	callq	*__imp__iki_std_memset(%rip)
+	cmpl	$0, 4(%rdi)
+	jne	.LBB1_19
+# BB#4:
+	cmpl	$0, 4(%r14)
+	je	.LBB1_5
+.LBB1_19:
+	movq	%rbx, -168(%rbp)        # 8-byte Spill
+	movabsq	$4294967297, %rax       # imm = 0x100000001
+	movq	%rax, -64(%rbp)
+.LBB1_6:
+	movl	-60(%rbp), %eax
+	notl	%eax
+	testl	-64(%rbp), %eax
+	je	.LBB1_7
+# BB#21:
+	movl	$5242906, %ecx          # imm = 0x50001A
+	movq	__imp__iki_stmt_online(%rip), %rax
+	movq	%rax, %rdi
+	callq	*%rdi
+	movq	384(%rsi), %rbx
+	movq	440(%rsi), %r12
+	movq	__imp__iki_std_memset(%rip), %r13
+	leaq	-88(%rbp), %r14
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	movq	%r14, %rcx
+	callq	*%r13
+	movq	%rbx, 32(%rsp)
+	movl	$8, 40(%rsp)
+	movl	$8, %edx
+	movl	$8, %r9d
+	movq	%r14, %rcx
+	movq	%r12, %r8
+	callq	*__imp__iki_vlog_unsigned_minus(%rip)
+	leaq	656(%rsi), %rcx
+	leaq	1184(%rsi), %rdx
+	movl	$7, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	%rax, %r8
+	callq	*%r15
+	movl	$5242907, %ecx          # imm = 0x50001B
+	callq	*%rdi
+	movq	496(%rsi), %r14
+	movq	664(%rsi), %rbx
+	leaq	-64(%rbp), %r12
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	movq	%r12, %rcx
+	callq	*%r13
+	movq	%rbx, 32(%rsp)
+	movl	$8, 40(%rsp)
+	movl	$24, %edx
+	movl	$24, %r9d
+	movq	%r12, %rcx
+	movq	%r14, %r8
+	callq	*__imp__iki_vlog_unsigned_rshift(%rip)
+	movl	$23, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	-136(%rbp), %rcx        # 8-byte Reload
+	movq	-152(%rbp), %rdx        # 8-byte Reload
+	movq	%rax, %r8
+	callq	*%r15
+	movl	$5242908, %ecx          # imm = 0x50001C
+	callq	*%rdi
+	movq	384(%rsi), %rbx
+	movq	664(%rsi), %rdi
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	movq	%r12, %rcx
+	callq	*%r13
+	cmpl	$0, 4(%rbx)
+	jne	.LBB1_25
+# BB#22:
+	cmpl	$0, 4(%rdi)
+	je	.LBB1_23
+.LBB1_25:
+	movq	$-1, -64(%rbp)
+.LBB1_24:
+	movzbl	-64(%rbp), %eax
+	movl	%eax, -64(%rbp)
+	movzbl	-60(%rbp), %eax
+	movl	%eax, -60(%rbp)
+	movl	$7, 32(%rsp)
+	leaq	-64(%rbp), %r8
+	xorl	%r9d, %r9d
+	movq	-128(%rbp), %rcx        # 8-byte Reload
+	movq	-160(%rbp), %rdx        # 8-byte Reload
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var(%rip)
+.LBB1_7:
+	movl	$5242920, %ecx          # imm = 0x500028
+	callq	*__imp__iki_stmt_online(%rip)
+	movq	-112(%rbp), %rax        # 8-byte Reload
+	movq	8(%rax), %rdi
+	movq	-128(%rbp), %rax        # 8-byte Reload
+	movq	8(%rax), %rbx
+	leaq	-64(%rbp), %rcx
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	callq	*__imp__iki_std_memset(%rip)
+	cmpl	$0, 4(%rdi)
+	jne	.LBB1_26
+# BB#8:
+	cmpl	$0, 4(%rbx)
+	je	.LBB1_9
+.LBB1_26:
+	movabsq	$4294967297, %rax       # imm = 0x100000001
+	movq	%rax, -64(%rbp)
+.LBB1_10:
+	movl	-60(%rbp), %eax
+	notl	%eax
+	testl	-64(%rbp), %eax
+	je	.LBB1_11
+# BB#28:
+	movl	$5242922, %ecx          # imm = 0x50002A
+	movq	__imp__iki_stmt_online(%rip), %rax
+	movq	%rax, %rdi
+	callq	*%rdi
+	movq	384(%rsi), %r12
+	movq	440(%rsi), %rbx
+	movq	__imp__iki_std_memset(%rip), %r13
+	leaq	-88(%rbp), %r14
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	movq	%r14, %rcx
+	callq	*%r13
+	movq	%rbx, 32(%rsp)
+	movl	$8, 40(%rsp)
+	movl	$8, %edx
+	movl	$8, %r9d
+	movq	%r14, %rcx
+	movq	%r12, %r8
+	callq	*__imp__iki_vlog_unsigned_minus(%rip)
+	leaq	656(%rsi), %rcx
+	leaq	1184(%rsi), %rdx
+	movl	$7, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	%rax, %r8
+	callq	*%r15
+	movl	$5242923, %ecx          # imm = 0x50002B
+	callq	*%rdi
+	movq	552(%rsi), %r12
+	movq	664(%rsi), %rbx
+	leaq	-64(%rbp), %r14
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	movq	%r14, %rcx
+	callq	*%r13
+	movq	%rbx, 32(%rsp)
+	movl	$8, 40(%rsp)
+	movl	$24, %edx
+	movl	$24, %r9d
+	movq	%r14, %rcx
+	movq	%r12, %r8
+	callq	*__imp__iki_vlog_unsigned_rshift(%rip)
+	movl	$23, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	-120(%rbp), %rcx        # 8-byte Reload
+	movq	-168(%rbp), %rdx        # 8-byte Reload
+	movq	%rax, %r8
+	callq	*%r15
+	movl	$5242924, %ecx          # imm = 0x50002C
+	callq	*%rdi
+	movq	440(%rsi), %rbx
+	movq	664(%rsi), %rdi
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	movq	%r14, %rcx
+	callq	*%r13
+	cmpl	$0, 4(%rbx)
+	jne	.LBB1_32
+# BB#29:
+	cmpl	$0, 4(%rdi)
+	je	.LBB1_30
+.LBB1_32:
+	movq	$-1, -64(%rbp)
+.LBB1_31:
+	movzbl	-64(%rbp), %eax
+	movl	%eax, -64(%rbp)
+	movzbl	-60(%rbp), %eax
+	movl	%eax, -60(%rbp)
+	movl	$7, 32(%rsp)
+	leaq	-64(%rbp), %r8
+	xorl	%r9d, %r9d
+	movq	-112(%rbp), %rcx        # 8-byte Reload
+	movq	-144(%rbp), %rdx        # 8-byte Reload
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var(%rip)
+.LBB1_11:
+	movl	$5242935, %ecx          # imm = 0x500037
+	callq	*__imp__iki_stmt_online(%rip)
+	movq	-136(%rbp), %rax        # 8-byte Reload
+	movq	8(%rax), %rbx
+	movq	-120(%rbp), %rax        # 8-byte Reload
+	movq	8(%rax), %rdi
+	leaq	-64(%rbp), %rcx
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	callq	*__imp__iki_std_memset(%rip)
+	cmpl	$0, 4(%rbx)
+	jne	.LBB1_33
+# BB#12:
+	cmpl	$0, 4(%rdi)
+	je	.LBB1_13
+.LBB1_33:
+	movq	$-1, -64(%rbp)
+.LBB1_14:
+	andb	$1, -61(%rbp)
+	andb	$1, -57(%rbp)
+	leaq	600(%rsi), %r13
+	leaq	1376(%rsi), %r12
+	movl	$23, 32(%rsp)
+	leaq	-64(%rbp), %rbx
+	xorl	%r9d, %r9d
+	movq	%r13, %rcx
+	movq	%r12, %rdx
+	movq	%rbx, %r8
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var(%rip)
+	movl	$1, 32(%rsp)
+	leaq	-88(%rbp), %r14
+	xorl	%edx, %edx
+	movl	$24, %r9d
+	movq	%r14, %rcx
+	movq	%rbx, %r8
+	callq	*__imp__iki_vlog_bit_copy(%rip)
+	leaq	712(%rsi), %r15
+	leaq	1344(%rsi), %rdx
+	movq	%rdx, -120(%rbp)        # 8-byte Spill
+	xorl	%r9d, %r9d
+	movq	%r15, %rcx
+	movq	%r14, %r8
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var_setback0(%rip)
+	movl	$5242937, %ecx          # imm = 0x500039
+	callq	*__imp__iki_stmt_online(%rip)
+	movq	720(%rsi), %rdi
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	movq	%rbx, %rcx
+	callq	*__imp__iki_std_memset(%rip)
+	movl	(%rdi), %ecx
+	movl	4(%rdi), %ebx
+	xorl	ng6(%rip), %ecx
+	movl	ng6+4(%rip), %edx
+	movl	%ebx, %eax
+	xorl	%edx, %eax
+	orl	%ecx, %eax
+	orl	%edx, %ebx
+	movl	%ebx, %ecx
+	notl	%ecx
+	testl	%ecx, %eax
+	jne	.LBB1_16
+# BB#15:
+	testl	%ebx, %ebx
+	movl	$1, -64(%rbp)
+	je	.LBB1_16
+# BB#34:
+	movl	$1, -60(%rbp)
+.LBB1_16:
+	movq	%r12, %rdi
+	movl	-60(%rbp), %eax
+	notl	%eax
+	testl	-64(%rbp), %eax
+	je	.LBB1_17
+# BB#35:
+	movl	$5242939, %ecx          # imm = 0x50003B
+	movq	__imp__iki_stmt_online(%rip), %rax
+	movq	%rax, %r12
+	callq	*%r12
+	movq	8(%r13), %rax
+	movq	8(%r15), %rcx
+	movq	%rax, 48(%rsp)
+	movq	%rcx, 32(%rsp)
+	movl	$24, 56(%rsp)
+	movl	$1, 40(%rsp)
+	leaq	-88(%rbp), %rbx
+	movl	$25, %edx
+	movl	$25, %r8d
+	movl	$2, %r9d
+	movq	%rbx, %rcx
+	callq	*__imp__iki_vlog_concat(%rip)
+	leaq	-96(%rbp), %r14
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	movq	%r14, %rcx
+	callq	*__imp__iki_std_memset(%rip)
+	leaq	ng6(%rip), %rax
+	movq	%rax, 32(%rsp)
+	movl	$32, 40(%rsp)
+	movl	$25, %edx
+	movl	$25, %r9d
+	movq	%r14, %rcx
+	movq	%rbx, %r8
+	callq	*__imp__iki_vlog_unsigned_rshift(%rip)
+	movq	%rax, %rbx
+	movl	$23, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	%r13, %rcx
+	movq	%rdi, %rdx
+	movq	%rbx, %r8
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var(%rip)
+	movl	$1, 32(%rsp)
+	leaq	-104(%rbp), %rdi
+	xorl	%edx, %edx
+	movl	$24, %r9d
+	movq	%rdi, %rcx
+	movq	%rbx, %r8
+	callq	*__imp__iki_vlog_bit_copy(%rip)
+	xorl	%r9d, %r9d
+	movq	%r15, %rcx
+	movq	-120(%rbp), %rdx        # 8-byte Reload
+	movq	%rdi, %r8
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var_setback0(%rip)
+	movl	$5242940, %ecx          # imm = 0x50003C
+	callq	*%r12
+	movq	-112(%rbp), %rax        # 8-byte Reload
+	movq	8(%rax), %rdi
+	leaq	-64(%rbp), %rcx
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	callq	*__imp__iki_std_memset(%rip)
+	cmpl	$0, 4(%rdi)
+	jne	.LBB1_39
+# BB#36:
+	cmpl	$0, ng6+4(%rip)
+	je	.LBB1_37
+.LBB1_39:
+	movq	$-1, -64(%rbp)
+.LBB1_38:
+	movl	$7, 32(%rsp)
+	leaq	-64(%rbp), %r8
+	xorl	%r9d, %r9d
+	movq	-112(%rbp), %rcx        # 8-byte Reload
+	movq	-144(%rbp), %rdx        # 8-byte Reload
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var(%rip)
+	leaq	-88(%rbp), %r14
+.LBB1_17:
+	movl	$5242947, %ecx          # imm = 0x500043
+	callq	*__imp__iki_stmt_online(%rip)
+	movq	608(%rsi), %r9
+	movl	$1, -80(%rbp)
+	movl	$23, -76(%rbp)
+	movl	$0, -72(%rbp)
+	leaq	-80(%rbp), %rax
+	movq	%rax, 80(%rsp)
+	leaq	ng1(%rip), %rax
+	movq	%rax, 56(%rsp)
+	leaq	ng0(%rip), %rax
+	movq	%rax, 32(%rsp)
+	movl	$1, 112(%rsp)
+	movl	$2, 104(%rsp)
+	movl	$1, 96(%rsp)
+	movq	$0, 88(%rsp)
+	movl	$1, 72(%rsp)
+	movl	$32, 64(%rsp)
+	movl	$1, 48(%rsp)
+	movl	$32, 40(%rsp)
+	movl	$1, %edx
+	movl	$23, %r8d
+	movq	%r14, %rcx
+	callq	*__imp__iki_vlog_get_part_select_value(%rip)
+	movq	216(%rsi), %rax
+	movq	440(%rsi), %rcx
+	movq	%r14, 64(%rsp)
+	movq	%rcx, 48(%rsp)
+	movq	%rax, 32(%rsp)
+	movl	$23, 72(%rsp)
+	movl	$8, 56(%rsp)
+	movl	$1, 40(%rsp)
+	leaq	-64(%rbp), %rdi
+	movl	$32, %edx
+	movl	$32, %r8d
+	movl	$3, %r9d
+	movq	%rdi, %rcx
+	callq	*__imp__iki_vlog_concat(%rip)
+	leaq	152(%rsi), %rcx
+	leaq	1440(%rsi), %rdx
+	movl	$31, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	%rdi, %r8
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var(%rip)
+.LBB1_18:
+	movl	$5242894, %ecx          # imm = 0x50000E
+	callq	*__imp__iki_stmt_online(%rip)
+	movb	$1, 888(%rsi)
+	leaq	.Ltmp7(%rip), %rax
+	movq	%rax, 808(%rsi)
+	addq	$232, %rsp
+	popq	%rbx
+	popq	%rdi
+	popq	%rsi
+	popq	%r12
+	popq	%r13
+	popq	%r14
+	popq	%r15
+	popq	%rbp
+	ret
+.LBB1_5:
+	movq	%rbx, -168(%rbp)        # 8-byte Spill
+	movl	(%rdi), %eax
+	cmpl	(%r14), %eax
+	jae	.LBB1_6
+# BB#20:
+	movl	$1, -64(%rbp)
+	jmp	.LBB1_6
+.LBB1_9:
+	movl	(%rdi), %eax
+	cmpl	(%rbx), %eax
+	jae	.LBB1_10
+# BB#27:
+	movl	$1, -64(%rbp)
+	jmp	.LBB1_10
+.LBB1_13:
+	movl	(%rbx), %eax
+	addl	(%rdi), %eax
+	movl	%eax, -64(%rbp)
+	movl	$0, -60(%rbp)
+	jmp	.LBB1_14
+.LBB1_23:
+	movl	(%rbx), %eax
+	addl	(%rdi), %eax
+	movl	%eax, -64(%rbp)
+	movl	$0, -60(%rbp)
+	jmp	.LBB1_24
+.LBB1_30:
+	movl	(%rbx), %eax
+	addl	(%rdi), %eax
+	movl	%eax, -64(%rbp)
+	movl	$0, -60(%rbp)
+	jmp	.LBB1_31
+.LBB1_37:
+	movl	(%rdi), %eax
+	addl	ng6(%rip), %eax
+	movl	%eax, -64(%rbp)
+	movl	$0, -60(%rbp)
+	jmp	.LBB1_38
+
+	.def	 _execute_5;
+	.scl	2;
+	.type	32;
+	.endef
+	.globl	_execute_5
+	.align	16, 0x90
+_execute_5:                             # @_execute_5
+# BB#0:
+	pushq	%rbp
+	movq	%rsp, %rbp
+	pushq	%rsi
+	pushq	%rdi
+	pushq	%rbx
+	subq	$72, %rsp
+	movq	%rdx, %rsi
+	.align	16, 0x90
+.LBB2_1:                                # =>This Inner Loop Header: Depth=1
+	movl	$3, %edx
+	movq	%rsi, %rcx
+	callq	*__imp__iki_vlog_set_threadId_for_unrandom(%rip)
+	movq	760(%rsi), %rax
+	testq	%rax, %rax
+	je	.LBB2_7
+# BB#2:                                 #   in Loop: Header=BB2_1 Depth=1
+	jmpq	*%rax
+.Ltmp11:                                # Block address taken
+.LBB2_3:
+	movb	$0, 840(%rsi)
+	movl	$3145744, %ecx          # imm = 0x300010
+	callq	*__imp__iki_stmt_online(%rip)
+	leaq	208(%rsi), %rcx
+	movl	$1, %edx
+	callq	*__imp__iki_vlog_signal_handle_value_input(%rip)
+	movq	%rax, %rdi
+	leaq	-32(%rbp), %rcx
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	callq	*__imp__iki_std_memset(%rip)
+	movl	(%rdi), %ecx
+	movl	4(%rdi), %ebx
+	xorl	ng6(%rip), %ecx
+	movl	ng6+4(%rip), %edx
+	movl	%ebx, %eax
+	xorl	%edx, %eax
+	orl	%ecx, %eax
+	orl	%edx, %ebx
+	movl	%ebx, %ecx
+	notl	%ecx
+	testl	%ecx, %eax
+	jne	.LBB2_5
+# BB#4:
+	testl	%ebx, %ebx
+	movl	$1, -32(%rbp)
+	je	.LBB2_5
+# BB#8:
+	movl	$1, -28(%rbp)
+.LBB2_5:
+	movl	-28(%rbp), %eax
+	notl	%eax
+	testl	-32(%rbp), %eax
+	je	.LBB2_6
+# BB#9:
+	movl	$3145745, %ecx          # imm = 0x300011
+	callq	*__imp__iki_stmt_online(%rip)
+	leaq	264(%rsi), %rcx
+	leaq	848(%rsi), %rdx
+	movl	$31, 32(%rsp)
+	leaq	ng11(%rip), %r8
+	xorl	%r9d, %r9d
+	callq	*__imp__iki_vlog_schedule_transaction_blocking_var(%rip)
+	jmp	.LBB2_7
+.LBB2_6:
+	movl	$3145753, %ecx          # imm = 0x300019
+	callq	*__imp__iki_stmt_online(%rip)
+	movq	384(%rsi), %rdi
+	callq	*__imp__iki_malloc8(%rip)
+	movq	%rax, %rbx
+	xorl	%edx, %edx
+	movl	$8, %r8d
+	movq	%rbx, %rcx
+	callq	*__imp__iki_std_memset(%rip)
+	movl	$8, %r8d
+	movq	%rbx, %rcx
+	movq	%rdi, %rdx
+	callq	*__imp__iki_std_memcpy(%rip)
+	leaq	264(%rsi), %rcx
+	leaq	880(%rsi), %rdx
+	movq	$0, 48(%rsp)
+	movl	$9, 40(%rsp)
+	movl	$31, 32(%rsp)
+	xorl	%r9d, %r9d
+	movq	%rbx, %r8
+	callq	*__imp__iki_vlog_schedule_transaction_non_blocking_delay_signal(%rip)
+.LBB2_7:
+	movl	$3145741, %ecx          # imm = 0x30000D
+	callq	*__imp__iki_stmt_online(%rip)
+	movb	$1, 840(%rsi)
+	leaq	.Ltmp11(%rip), %rax
+	movq	%rax, 760(%rsi)
+	addq	$

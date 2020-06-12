@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri May 29 06:27:41 2020
+# Process ID: 3040
+# Log file: E:/edu/sem6/logic2/Tanh/vivado.log
+# Journal file: E:/edu/sem6/logic2/Tanh\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/edu/sem6/logic2/Tanh/Tanh.xpr
